@@ -1,0 +1,25 @@
+@import '../node_modules/bulma';
+
+$light-pink: #ffe1e1;
+$candy-pink: #F7717D;
+$china-pink: #DE639A;
+$max-purple: #7F2982;
+$dark-purple: #16001E;
+
+.App {
+    margin: auto;
+    width: 50%;
+    padding: 3%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.TextInput {
+    margin-top: 2%;
+}
+
+body {
+    margin: auto;
+    background-color: $light-pink;
+    padding: 2%;
+}
