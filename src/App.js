@@ -22,6 +22,7 @@ function App() {
     <div className='App'>
       <h1 className='title'>Word Counter</h1>
       <Checkboxes params={params} onChange={handleChange}/>
+      <hr />
       <TextInput params={params}/>
     </div>
   );

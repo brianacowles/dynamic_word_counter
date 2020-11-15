@@ -15,6 +15,7 @@ export default function Checkboxes({params, onChange}) {
                         type='checkbox'
                         onChange={handleChange}
                         defaultChecked={params.parentheses}
+                        className='mr-2'
                     />
                     Exclude words in parentheses
                 </label>
@@ -26,6 +27,7 @@ export default function Checkboxes({params, onChange}) {
                         type='checkbox'
                         onChange={handleChange}
                         defaultChecked={params.quotes}
+                        className='mr-2'
                     />
                     Exclude words in quotes
                 </label>
@@ -37,6 +39,7 @@ export default function Checkboxes({params, onChange}) {
                         type='checkbox'
                         onChange={handleChange}
                         defaultChecked={params.smallWords}
+                        className='mr-2'
                     />
                     Exclude words 3 letters or less
                 </label>

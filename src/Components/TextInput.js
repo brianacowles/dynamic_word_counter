@@ -39,12 +39,13 @@ export default function TextInput({params}) {
 
     return(
         <div className='TextInput'>
+            <p className='mb-1'><b>Count:</b> {count}</p>
             <textarea 
                 className='textarea' 
                 placeholder='Paste your text here'
                 onChange={handleChange}
+                rows={10}
             />
-            <h3>Count: {count}</h3>
         </div>
     )
 }

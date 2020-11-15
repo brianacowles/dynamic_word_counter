@@ -1,25 +1,29 @@
 @import '../node_modules/bulma';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-$light-pink: #ffe1e1;
-$candy-pink: #F7717D;
-$china-pink: #DE639A;
-$max-purple: #7F2982;
-$dark-purple: #16001E;
+$bg: #F8F4F1;
+$accent: #005D3E;
+$accent2: #FFE999;
 
 .App {
     margin: auto;
     width: 50%;
     padding: 3%;
-    background-color: white;
     border-radius: 10px;
+    border: 2px dashed $accent;
 }
 
-.TextInput {
-    margin-top: 2%;
+html, body {
+    height: 100%;
+    margin: 0;
 }
 
 body {
-    margin: auto;
-    background-color: $light-pink;
+    background-color: $bg;
     padding: 2%;
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    border: solid 1px $accent2;
 }
