@@ -29,12 +29,11 @@ export default function TextInput({params}) {
         newText = newText.replaceAll(/\n|\r/gi, ' ')
         // remove special characters
         newText = newText.replaceAll(/[^a-zA-Z\d\s:]/gi, '');
-        // remove extra spaces and trailing spaces
-        newText = newText.replaceAll(/\s\s+/gi, ' ')
-        newText = newText.replaceAll(/\s$/gi, '')
-
-        if(newText.length !== 0)
-            setCount(newText.split(' ').length);
+        
+        // return number of elements in array with empty elements removed
+        setCount(newText.split(' ').filter((e) => {
+            return e !== '';
+        }).length);
     }, [params, text])
 
     return(

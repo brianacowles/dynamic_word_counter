@@ -16,8 +16,6 @@ function App() {
     setParams({...params, [name]: newVal})
   }
 
-  console.log(params)
-
   return (
     <div className='App'>
       <h1 className='title'>Word Counter</h1>

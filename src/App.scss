@@ -27,3 +27,11 @@ body {
 hr {
     border: solid 1px $accent2;
 }
+
+@media only screen and (max-width: 800px) {
+    .App {
+        width: 90%;
+        padding: 5%;
+        padding-top: 2%;
+    }
+}
