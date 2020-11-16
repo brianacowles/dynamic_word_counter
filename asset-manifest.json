@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dynamic_word_counter/static/css/main.17ba2590.chunk.css",
-    "main.js": "/dynamic_word_counter/static/js/main.450da43d.chunk.js",
-    "main.js.map": "/dynamic_word_counter/static/js/main.450da43d.chunk.js.map",
+    "main.js": "/dynamic_word_counter/static/js/main.a9c87c99.chunk.js",
+    "main.js.map": "/dynamic_word_counter/static/js/main.a9c87c99.chunk.js.map",
     "runtime-main.js": "/dynamic_word_counter/static/js/runtime-main.c5375f4f.js",
     "runtime-main.js.map": "/dynamic_word_counter/static/js/runtime-main.c5375f4f.js.map",
     "static/js/2.3139f4e9.chunk.js": "/dynamic_word_counter/static/js/2.3139f4e9.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.c5375f4f.js",
     "static/js/2.3139f4e9.chunk.js",
     "static/css/main.17ba2590.chunk.css",
-    "static/js/main.450da43d.chunk.js"
+    "static/js/main.a9c87c99.chunk.js"
   ]
 }
