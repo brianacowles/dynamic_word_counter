@@ -1,6 +1,6 @@
 # Dynamic Word Counter
 
-Try it out [https://brianacowles.com/dynamic_word_counter/](here).
+Try it out [here](https://brianacowles.com/dynamic_word_counter/).
 
 Word counter that allows the user to select parameters for easier estimations. 
 
