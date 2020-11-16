@@ -20,7 +20,9 @@ export default function TextInput({params}) {
             newText = newText.replaceAll(/".*"/gi, '');
         }
         if(params.smallWords) {
-            // remove words 3 letters or less
+            // remove words 3 letters or less but preserve >=4 letter contractions
+            newText = newText.replaceAll(/\b\w{3}'\w/gi, 'four')
+            // ...it's ugly but it works...
             newText = newText.replaceAll(/\b\w{1,3}\b/gi, '');
         }
         // replace ellipsis with spaces
